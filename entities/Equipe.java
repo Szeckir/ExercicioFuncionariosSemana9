@@ -5,7 +5,7 @@ public class Equipe {
     }
 
     public boolean addFuncionario(Funcionario f) {
-
+        
     }
 
     public Funcionario pesquisaNome(String nome) {

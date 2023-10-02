@@ -14,7 +14,7 @@ public final class Gerente extends Funcionario{
     }
 
     public String geraDescricao() {
-
+        
     }
 
     public double calculaImposto() {

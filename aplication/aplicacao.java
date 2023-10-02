@@ -1,4 +1,5 @@
 package aplication;
+import entities.Funcionario;
 
 public class aplicacao {
     public aplicacao() {
