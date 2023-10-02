@@ -1,6 +1,6 @@
 package entities;
 
-public class Vendedor extends Funcionario{
+public final class Vendedor extends Funcionario{
     private double comissao;
 
     public Vendedor(String nome, double salarioBase, double descontos, double comissao) {

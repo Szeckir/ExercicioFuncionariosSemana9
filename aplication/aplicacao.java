@@ -6,7 +6,7 @@ public class aplicacao {
     }
 
     public void inicializa() {
-
+        
     }
 
     public void executa() {

@@ -1,5 +1,5 @@
 package entities;
-public class Gerente extends Funcionario{
+public final class Gerente extends Funcionario{
     private String setor;  
     private double adicionalSalario;
 
@@ -10,7 +10,7 @@ public class Gerente extends Funcionario{
     }
 
     public double calculaSalario() {
-        
+        return (this.salarioBase - this.descontos) + this.adicionalSalario;
     }
 
     public String geraDescricao() {

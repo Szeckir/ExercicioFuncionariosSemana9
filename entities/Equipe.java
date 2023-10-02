@@ -2,7 +2,6 @@ package entities;
 
 public class Equipe {
     public Equipe() {
-
     }
 
     public boolean addFuncionario(Funcionario f) {

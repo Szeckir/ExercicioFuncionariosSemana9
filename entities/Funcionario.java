@@ -11,7 +11,7 @@ public class Funcionario {
         this.descontos = descontos;
     }
 
-    public String getNome() {
+    public final String getNome() {
         return nome;
     }
 
