@@ -9,16 +9,18 @@ public final class Gerente extends Funcionario{
         this.adicionalSalario = adicionalSalario;
     }
 
+    @Override
     public double calculaSalario() {
         return (this.salarioBase - this.descontos) + this.adicionalSalario;
     }
 
     public String geraDescricao() {
-        
+        return setor;
     }
 
+    @Override
     public double calculaImposto() {
-
+        return (this.salarioBase / 1.7);
     }
 
     

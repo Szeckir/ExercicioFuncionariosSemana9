@@ -13,14 +13,14 @@ public final class Vendedor extends Funcionario{
         return (this.salarioBase - this.descontos) + this.comissao;
     }
 
+    @Override
     public double calculaImposto() {
         if (this.calculaSalario() <= 500) {
             return 0;
         } else if (this.calculaSalario() <= 500 && this.calculaSalario() >=2000) {
             return 10;
-        } else if (this.calculaSalario() > 2000) {
+        } else  {
             return 20;
         }
-        return (Double) null;
     }
 }

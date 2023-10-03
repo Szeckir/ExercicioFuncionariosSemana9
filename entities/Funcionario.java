@@ -19,5 +19,6 @@ public abstract class Funcionario {
         return this.salarioBase - this.descontos;
     }
 
+    public abstract double calculaImposto();
 
 }
